@@ -1,6 +1,5 @@
 file(GLOB HEADERS CMAKE_CONFIGURE_DEPENDS "${PROJECT_SOURCE_DIR}/include/*.hpp")
 
-
 add_executable(FalknerSkan main.cpp)
 
 target_link_libraries(FalknerSkan PRIVATE Eigen3::Eigen)
